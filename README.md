@@ -50,7 +50,7 @@ import tensorflow_text
 Download the zipped folder of the model and extract all the contents.
 ### Load the Model
 The translator directory should contain all the required model files
-```
+```python
 model=tf.saved_model.load('translator')
 ```
 ### Performing Transliteration
@@ -64,10 +64,10 @@ Output
 ```
 To perform transliteration in a loop, modify and run the above code and save the response in an appropriate output file (text/csv, etc)
 For example, consider a CSV file
-```
+```python
 df_test=pd.read_csv(path-to-input-csv-file)
 ```
-```
+```python
 translations=[]
 for i in range(len(df_test)):
     input_sentence = df_test.iloc[i]['nastaaliq']
@@ -78,7 +78,7 @@ for i in range(len(df_test)):
     # Update DataFrame
     translations.append(translated_text)
 ```
-```
+```python
 df_test['predicted_devanagari_sentence'] = translations
 df_test.to_csv('results.csv')
 ```
