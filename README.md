@@ -18,7 +18,7 @@ The preprocessing pipeline includes:
 - Text cleaning and formatting for TensorFlow compatibility
 
 ### Model Architecture
-[![A sample transformer architecture for Portugese to English translation(https://i.postimg.cc/PfgVXG53/image.png)](https://postimg.cc/ThcJ04mg)
+[![A sample transformer architecture for Portugese to English translation](https://i.postimg.cc/PfgVXG53/image.png)](https://postimg.cc/ThcJ04mg)
 - Framework: TensorFlow
 
 - Architecture: Transformer-based model
