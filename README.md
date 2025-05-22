@@ -18,7 +18,7 @@ The preprocessing pipeline includes:
 - Text cleaning and formatting for TensorFlow compatibility
 
 ### Model Architecture
-[image.png](https://postimg.cc/ThcJ04mg)
+[![image.png](https://i.postimg.cc/PfgVXG53/image.png)](https://postimg.cc/ThcJ04mg)
 - Framework: TensorFlow
 
 - Architecture: Transformer-based model
