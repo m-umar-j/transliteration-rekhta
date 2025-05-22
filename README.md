@@ -5,7 +5,7 @@ This project implements a neural machine translation (NMT) approach to translite
 ## Dataset
 Dataset provided by Rekhta Foundation
 - Size: 30,000 ghazals (~400,000 lines of Urdu poetry
-- Format: JSONL format where each instance containing Urdu, Devnagri, and Roman form of a line.
+- Format: JSONL format where each instance contains Urdu, Devnagri, and Roman form of a line.
 
 ## Technical Implementation
 ### Preprocessing
@@ -37,10 +37,18 @@ Performance:
 
 - Hardware: Trained on Kaggle Notebooks with 2×T4 GPUs and 28GB RAM
 ## Installation and Setup
+```python
 
+```
 ## Usage 
 ### Load the Model
+```python
+
+```
 ### Performing Transliteration
+```python
+
+```
 
 ## Challenges and Solutions
 ### Diacritic Preservation:
