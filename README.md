@@ -37,12 +37,18 @@ Performance:
 
 - Hardware: Trained on Kaggle Notebooks with 2×T4 GPUs and 28GB RAM
 ## Installation and Setup
+Install tensorflow and tensorflow_text
 ```python
-
+pip install tensorflow tensorflow_text
+```
+Import installed packages
+```python
+import tensorflow as tf
+import tensorflow_datasets as tfds
 ```
 ## Usage 
 ### Load the Model
-```python
+```
 
 ```
 ### Performing Transliteration
